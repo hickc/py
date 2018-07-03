@@ -1,0 +1,8 @@
+# requirements-to-freeze.txt specifies top-level dependencies.
+# requirements.txt contains a complete list of all dependencies with exact versions specified.
+# requirements.txt is created as as follows
+#    pip freeze > requirements.txt
+tornado==4.5.2
+requests
+Logbook
+pytest
